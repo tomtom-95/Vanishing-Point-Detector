@@ -74,7 +74,7 @@ class vanishingPt
     //read from video file on disk
     //to read from webcam initialize as: cap = VideoCapture(int device_id);
     //cap = VideoCapture(1);
-    cap = VideoCapture("0.hevc");
+    cap = VideoCapture("video/0.hevc");
 
     if(cap.isOpened())
     {
